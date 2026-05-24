@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Krutik Mistry Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+
+    <div class="frame"></div>
+
+    <nav class="navbar">
+        <div class="container nav-content">
+            <a href="#" class="logo">KRUTIK<span class="dot">.</span></a>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <div class="nav-right">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#education">Education</a></li>
+                </ul>
+                <a href="#contact" class="nav-cta">Let's Talk →</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Navigation Overlay -->
+    <div class="mobile-menu-overlay" id="mobile-overlay">
+        <ul class="mobile-nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#education">Education</a></li>
+        </ul>
+        <a href="#contact" class="mobile-nav-cta">Let's Talk →</a>
+    </div>
+    <header class="section-dark hero" id="home">
+        <div class="container hero-grid">
+            <div class="hero-left">
+                <span class="label reveal-up">SOFTWARE ENGINEER • ML & AI • DEVOPS</span>
+                <h1 class="hero-title reveal-up">
+                    KRUTIK <br> DIPAKBHAI <br>
+                    <span class="outline">MISTRY</span>
+                </h1>
+
+                <div class="hero-bottom reveal-up">
+                    <p class="hero-desc" style="font-weight: 500; font-size: 1.15rem;">
+                        Full-stack software engineer and ML practitioner with a strong foundation in cloud
+                        infrastructure,
+                        AI pipelines, and scalable system design. Passionate about building intelligent products
+                        that solve real problems with measurable impact.
+                    </p>
+                    <div class="scroll-indicator">Scroll down ↓</div>
+                </div>
+            </div>
+
+            <div class="hero-right reveal-up">
+                <div class="hero-image-container">
+                    <img src="profile.jpg" alt="Krutik Mistry" class="hero-img">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Impact Stats Strip -->
+    <div class="stats-strip reveal-up">
+        <div class="container stats-grid">
+            <div class="stat-item">
+                <span class="stat-number">3.5</span>
+                <span class="stat-label">GPA at Florida Tech M.S. CS</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+                <span class="stat-number">40<sup>%</sup></span>
+                <span class="stat-label">Deployment time cut via CI/CD automation</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+                <span class="stat-number">74<sup>%</sup></span>
+                <span class="stat-label">Cloud uptime achieved on AWS infrastructure</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+                <span class="stat-number">35<sup>%</sup></span>
+                <span class="stat-label">Manual setup time reduced through IaC</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Skills Section (Light) -->
+    <section class="section-light skills" id="skills">
+        <div class="container reveal-up">
+
+            <div class="section-header">
+                <span class="label">Expertise</span>
+                <h2 class="section-title">Skills & Tools</h2>
+                <p class="section-subtitle">
+                    Software engineer and ML practitioner — building scalable systems, intelligent pipelines,
+                    and cloud-native infrastructure that delivers results.
+                </p>
+            </div>
+
+            <div class="expertise-split">
+                <div class="expertise-area">
+                    <h3 class="area-title">Core Competencies</h3>
+
+                    <div class="skills-grid">
+                        <div class="skill-category">
+                            <h3>Software Engineering</h3>
+                            <ul class="achievement-list">
+                                <li>
+                                    <span class="achieve-title">Architecture</span>
+                                    <span class="achieve-desc">Full-Stack Development, Microservices, REST APIs,
+                                        Distributed Systems, Design Patterns.</span>
+                                </li>
+                                <li>
+                                    <span class="achieve-title">Languages</span>
+                                    <span class="achieve-desc">Python, Java, C/C++, JavaScript, TypeScript, SQL, R,
+                                        MATLAB.</span>
+                                </li>
+                                <li>
+                                    <span class="achieve-title">Web & APIs</span>
+                                    <span class="achieve-desc">ReactJS, NodeJS, ExpressJS, HTML5, CSS3, XQuery,
+                                        JSON.</span>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="skill-category">
+                            <h3>ML & AI</h3>
+                            <ul class="achievement-list">
+                                <li>
+                                    <span class="achieve-title">ML Frameworks</span>
+                                    <span class="achieve-desc">PyTorch, TensorFlow, Scikit-Learn, NumPy, Pandas, OpenCV,
+                                        Matplotlib.</span>
+                                </li>
+                                <li>
+                                    <span class="achieve-title">Generative AI</span>
+                                    <span class="achieve-desc">LLMs, RAG Pipelines, HuggingFace, SentenceTransformers,
+                                        Multimodal Embeddings, Groq, LangChain.</span>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="skill-category">
+                            <h3>Cloud & DevOps</h3>
+                            <ul class="achievement-list">
+                                <li>
+                                    <span class="achieve-title">Cloud Platforms</span>
+                                    <span class="achieve-desc">AWS (EC2, S3, Lambda, CloudFormation), GCP, Azure.</span>
+                                </li>
+                                <li>
+                                    <span class="achieve-title">DevOps & IaC</span>
+                                    <span class="achieve-desc">Docker, Kubernetes, Jenkins, CI/CD Pipelines, Bash
+                                        Scripting, IAM Security.</span>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="skill-category">
+                            <h3>Engineering Practices</h3>
+                            <ul class="achievement-list">
+                                <li>
+                                    <span class="achieve-title">Process</span>
+                                    <span class="achieve-desc">Agile/Scrum, SDLC, JIRA, Code Reviews, Version
+                                        Control.</span>
+                                </li>
+                                <li>
+                                    <span class="achieve-title">Databases</span>
+                                    <span class="achieve-desc">SQL, NoSQL, Database Management, Query
+                                        Optimization.</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tools & Tech Stack Section -->
+                <div class="tools-area">
+                    <h3 class="area-title">Tools & Tech Stack</h3>
+
+                    <div class="tools-grid">
+                        <div class="tool-category">
+                            <span class="tool-label">Languages:</span>
+                            <div class="tool-tags">
+                                <span class="tool-item">Python</span>
+                                <span class="tool-item">Java</span>
+                                <span class="tool-item">C/C++</span>
+                                <span class="tool-item">JavaScript</span>
+                                <span class="tool-item">GO</span>
+                                <span class="tool-item">TypeScript</span>
+                                <span class="tool-item">SQL</span>
+                                <span class="tool-item">R</span>
+                                <span class="tool-item">MATLAB</span>
+                                <span class="tool-item">SwiftUI</span>
+                            </div>
+                        </div>
+
+                        <div class="tool-category">
+                            <span class="tool-label">Web & APIs:</span>
+                            <div class="tool-tags">
+                                <span class="tool-item">ReactJS</span>
+                                <span class="tool-item">NodeJS</span>
+                                <span class="tool-item">ExpressJS</span>
+                                <span class="tool-item">HTML5</span>
+                                <span class="tool-item">CSS3</span>
+                                <span class="tool-item">REST API</span>
+                                <span class="tool-item">Microservices</span>
+                                <span class="tool-item">JSON</span>
+                            </div>
+                        </div>
+
+                        <div class="tool-category">
+                            <span class="tool-label">Cloud & DevOps:</span>
+                            <div class="tool-tags">
+                                <span class="tool-item">AWS EC2</span>
+                                <span class="tool-item">AWS S3</span>
+                                <span class="tool-item">AWS Lambda</span>
+                                <span class="tool-item">CloudFormation</span>
+                                <span class="tool-item">GCP</span>
+                                <span class="tool-item">Azure</span>
+                                <span class="tool-item">Docker</span>
+                                <span class="tool-item">Kubernetes</span>
+                                <span class="tool-item">Jenkins</span>
+                                <span class="tool-item">Git</span>
+                            </div>
+                        </div>
+
+                        <div class="tool-category">
+                            <span class="tool-label">ML & AI:</span>
+                            <div class="tool-tags">
+                                <span class="tool-item">PyTorch</span>
+                                <span class="tool-item">TensorFlow</span>
+                                <span class="tool-item">Scikit-Learn</span>
+                                <span class="tool-item">NumPy</span>
+                                <span class="tool-item">Pandas</span>
+                                <span class="tool-item">OpenCV</span>
+                                <span class="tool-item">LangChain</span>
+                                <span class="tool-item">FAISS</span>
+                                <span class="tool-item">HuggingFace</span>
+                                <span class="tool-item">SentenceTransformers</span>
+                                <span class="tool-item">Groq</span>
+                            </div>
+                        </div>
+
+                        <div class="tool-category">
+                            <span class="tool-label">Practices & Tools:</span>
+                            <div class="tool-tags">
+                                <span class="tool-item">Agile/Scrum</span>
+                                <span class="tool-item">SDLC</span>
+                                <span class="tool-item">CI/CD</span>
+                                <span class="tool-item">IaC</span>
+                                <span class="tool-item">JIRA</span>
+                                <span class="tool-item">Postman</span>
+                                <span class="tool-item">VS Code</span>
+                                <span class="tool-item">Android Studio</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section (Light) - moved before Projects -->
+    <section class="section-dark experience" id="experience">
+        <div class="container reveal-up">
+            <div class="section-header">
+                <span class="label">Career Path</span>
+                <h2 class="section-title">Work Experience</h2>
+            </div>
+            <div class="experience-list-modern">
+                <div class="modern-job-card">
+                    <div class="job-meta">
+                        <span class="job-date">JUL 2025 – MAY 2026</span>
+                        <span class="job-location">Melbourne, FL</span>
+                        <h3 class="job-company">Florida Institute of Technology</h3>
+                    </div>
+                    <div class="job-content">
+                        <h4 class="job-role">IT Support Specialist</h4>
+                        <ul class="project-bullets-exp">
+                            <li>Diagnosed and resolved hardware, software, and network issues for end-users by 
+                                leveraging internal knowledge base tools and structured troubleshooting methodologies, 
+                                supporting Microsoft Windows environments and PC hardware across campus systems.</li>
+                            <li>Triaged and escalated complex information system incidents following established IT 
+                                protocols, accurately classifying issue severity and routing tickets to appropriate 
+                                support tiers to minimize resolution time and maintain service continuity.</li>
+                            <li>Delivered technical guidance on university information systems and software 
+                                products to students and staff, maintaining quality and productivity metrics 
+                                while adhering to professional conduct standards set by the Team Lead.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="modern-job-card">
+                    <div class="job-meta">
+                        <span class="job-date">JAN 2023 – DEC 2024</span>
+                        <span class="job-location">Melbourne, FL</span>
+                        <h3 class="job-company">Aviskan Inc.</h3>
+                    </div>
+                    <div class="job-content">
+                        <h4 class="job-role">Software Development Engineer - 1</h4>
+                        <ul class="project-bullets-exp">
+                            <li><strong>Full-Stack:</strong> Collaborated on a Geo-spatial index–based real-time
+                                tracking platform within a cross-functional Agile team, improving scalability and
+                                tracking accuracy.</li>
+                            <li><strong>Mobile:</strong> Engineered cross-platform Android and iOS applications
+                                integrating RESTful APIs with AWS EC2-hosted databases for seamless real-time data sync.
+                            </li>
+                            <li><strong>CI/CD:</strong> Automated pipelines using Docker, Jenkins, and AWS EC2, cutting
+                                manual deployment time by 40% and reducing average bug resolution time by 25%.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="modern-job-card">
+                    <div class="job-meta">
+                        <span class="job-date">JAN 2022 – DEC 2022</span>
+                        <span class="job-location">Melbourne, FL</span>
+                        <h3 class="job-company">Aviskan Inc.</h3>
+                    </div>
+                    <div class="job-content">
+                        <h4 class="job-role">DevOps Engineer Intern</h4>
+                        <ul class="project-bullets-exp">
+                            <li><strong>Pipelines:</strong> Engineered and maintained scalable CI/CD pipelines across
+                                AWS EC2, S3, and Lambda, improving overall system efficiency by 30%.</li>
+                            <li><strong>Infrastructure:</strong> Architected and monitored highly available cloud
+                                infrastructure achieving 74% uptime across production AWS services.</li>
+                            <li><strong>IaC:</strong> Automated provisioning with AWS CloudFormation and Bash scripting,
+                                reducing manual setup time by 35% and lowering operational costs by 20%.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section (Dark) -->
+    <section class="section-light projects" id="projects">
+        <div class="container">
+            <div class="section-header reveal-up">
+                <span class="label">Deliverables</span>
+                <h2 class="section-title">Projects</h2>
+            </div>
+
+            <div class="project-detailed-list">
+                <!-- Project 01 -->
+                <article class="project-detail-item reveal-up">
+                    <div class="project-info-header">
+                        <span class="project-num">01</span>
+                        <h3 class="project-name">Medical Chatbot — RAG LLM</h3>
+                        <span class="project-tech">LangChain · FAISS · HuggingFace · SentenceTransformers · Groq</span>
+                    </div>
+                    <div class="project-content">
+                        <ul class="project-bullets">
+                            <li><strong>RAG Pipeline:</strong> Architected a production-grade Retrieval-Augmented
+                                Generation pipeline using LangChain and FAISS for accurate, context-grounded clinical
+                                responses.</li>
+                            <li><strong>Vector Search:</strong> Embedded and indexed medical PDFs using
+                                SentenceTransformer (all-MiniLM-L6-v2), enabling fast semantic search across thousands
+                                of clinical documents.</li>
+                            <li><strong>Interface:</strong> Delivered a real-time Streamlit chat UI integrated with
+                                Groq-hosted Llama 4 Maverick with source traceability and low-latency inference.</li>
+                        </ul>
+                    </div>
+                </article>
+
+                <!-- Project 02 -->
+                <article class="project-detail-item reveal-up">
+                    <div class="project-info-header">
+                        <span class="project-num">02</span>
+                        <h3 class="project-name">Formula 1 2025 Race Outcome Prediction</h3>
+                        <span class="project-tech">Scikit-Learn · FastF1 API · Pandas · NumPy · Matplotlib</span>
+                    </div>
+                    <div class="project-content">
+                        <ul class="project-bullets">
+                            <li><strong>ML Model:</strong> Developed a Random Forest model to predict 2025 F1 race
+                                outcomes and championship standings with probabilistic per-driver forecasts.</li>
+                            <li><strong>Dataset Engineering:</strong> Built a high-fidelity dataset from 10,000+ rows of
+                                FastF1 API telemetry — lap times, qualifying results, and race data — with targeted
+                                feature engineering.</li>
+                            <li><strong>Simulation:</strong> Built a championship simulation module to forecast final
+                                standings and evaluate full-season outcome scenarios.</li>
+                        </ul>
+                    </div>
+                </article>
+
+                <!-- Project 03 -->
+                <article class="project-detail-item reveal-up">
+                    <div class="project-info-header">
+                        <span class="project-num">03</span>
+                        <h3 class="project-name">IMDB Sentiment Analysis — Neural Networks</h3>
+                        <span class="project-tech">Python · Keras · TensorFlow · LSTM · CNN · Scikit-Learn</span>
+                    </div>
+                    <div class="project-content">
+                        <ul class="project-bullets">
+                            <li><strong>Models:</strong> Built and compared MLP, LSTM, and 1D CNN architectures on
+                                50,000 IMDB movie reviews, achieving up to 89.7% test accuracy with the CNN model.</li>
+                            <li><strong>NLP Pipeline:</strong> Applied multiple text vectorization strategies —
+                                CountVectorizer, TF-IDF, Word2Vec Skip-gram, and Sentence Transformers — to evaluate
+                                feature representation quality.</li>
+                            <li><strong>Performance:</strong> CNN model trained 200x faster than LSTM (9s vs 30min per
+                                epoch) while outperforming it by ~4% on the test set.</li>
+                        </ul>
+                    </div>
+                </article>
+
+                <!-- Project 04 -->
+                <article class="project-detail-item reveal-up">
+                    <div class="project-info-header">
+                        <span class="project-num">04</span>
+                        <h3 class="project-name">Worldle — Geography Guessing Game</h3>
+                        <span class="project-tech">TypeScript · React · Mantine UI · Vite · TailwindCSS</span>
+                    </div>
+                    <div class="project-content">
+                        <ul class="project-bullets">
+                            <li><strong>Game Engine:</strong> Built a Wordle-style geography game where players identify
+                                countries from map silhouettes with 6 attempts, providing distance and direction clues
+                                after each guess.</li>
+                            <li><strong>Frontend:</strong> Developed with React, TypeScript, and Mantine UI for a
+                                polished, responsive interface — deployed live on Vercel.</li>
+                            <li><strong>Live:</strong> Playable at <a href="https://worldle-geography-game.vercel.app/"
+                                    target="_blank" style="color:inherit;">worldle-geography-game.vercel.app</a></li>
+                        </ul>
+                    </div>
+                </article>
+
+                <!-- Project 05 -->
+                <article class="project-detail-item reveal-up">
+                    <div class="project-info-header">
+                        <span class="project-num">05</span>
+                        <h3 class="project-name">Recursive DNS Resolver</h3>
+                        <span class="project-tech">Go · UDP · DNS Wire Format · TTL Caching · HTTP API · NDJSON
+                            Streaming</span>
+                    </div>
+                    <div class="project-content">
+                        <ul class="project-bullets">
+                            <li><strong>Architecture:</strong> Built a fully custom recursive DNS resolver in Go
+                                implementing the complete DNS hierarchy (Root → TLD → Authoritative) — zero reliance on
+                                the OS resolver, with a custom wire-format packet encoder/decoder.</li>
+                            <li><strong>Performance:</strong> TTL-based thread-safe cache reduces cold resolution
+                                latency of 150–400ms to under 1ms on cache hits; supports A, AAAA, NS, CNAME, MX, and
+                                TXT record types with automatic CNAME chain following.</li>
+                            <li><strong>API:</strong> Exposed a real-time streaming HTTP API (NDJSON) and REST endpoints
+                                for resolution, cache inspection, and cache flushing — with a CLI dig tool for direct
+                                testing.</li>
+                        </ul>
+                    </div>
+                </article>
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section (Light) -->
+    <section class="section-dark education" id="education">
+        <div class="container reveal-up">
+            <div class="section-header">
+                <span class="label">Credentials</span>
+                <h2 class="section-title">Education</h2>
+            </div>
+            <div class="edu-list-modern">
+                <div class="modern-edu-card">
+                    <div class="edu-logo-wrapper">
+                        <img src="fit.jpg" alt="Florida Institute of Technology Logo" class="edu-logo-img">
+                    </div>
+                    <div class="edu-meta">
+                        <span class="edu-date">Jan 2025 – Present</span>
+                        <h3 class="edu-school">FLORIDA INSTITUTE OF TECHNOLOGY</h3>
+                    </div>
+                    <div class="edu-content">
+                        <h4 class="edu-degree">M.S. Computer Science</h4>
+                        <p class="edu-gpa">GPA 3.50 / 4.0 | AI, ML, Software Engineering, Networks</p>
+                    </div>
+                </div>
+                <div class="modern-edu-card">
+                    <div class="edu-logo-wrapper">
+                        <img src="gtu.jpeg" alt="Gujarat Technological University Logo" class="edu-logo-img">
+                    </div>
+                    <div class="edu-meta">
+                        <span class="edu-date">Aug 2020 – May 2024</span>
+                        <h3 class="edu-school">GUJARAT TECHNOLOGICAL UNIVERSITY</h3>
+                    </div>
+                    <div class="edu-content">
+                        <h4 class="edu-degree">B.E. Computer Engineering</h4>
+                        <p class="edu-gpa">GPA 3.62 / 4.0 | DSA, OS, OOP, Databases, Architecture</p>
+                    </div>
+                </div>
+                <div class="modern-edu-card"></div>
+            </div>
+        </div>
+    </section>
+
+    
+
+    <footer class="section-light footer" id="contact">
+        <div class="container reveal-up">
+            <div class="footer-top">
+                <div class="footer-top-grid">
+                    <!-- Left Column: Contact -->
+                    <div class="footer-contact-info">
+                        <h2 class="footer-title">
+                            Let's build something <br>
+                            <span class="outline">impactful</span>
+                        </h2>
+                        <p class="contact-prompt">
+                            Open for opportunities, collaborations, or just to say hi.<br>
+                            Let's connect and build the future.
+                        </p>
+                        <div class="contact-links">
+                            <a href="https://www.linkedin.com/in/krutik-mistry" target="_blank" class="linkedin-link">
+                                Connect on LinkedIn
+                                <svg class="linkedin-arrow" width="32" height="32" viewBox="0 0 24 24" fill="none"
+                                    stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <line x1="7" y1="17" x2="17" y2="7"></line>
+                                    <polyline points="7 7 17 7 17 17"></polyline>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Right Column: Testimonial -->
+                    <div class="footer-testimonial">
+                        <span class="label">Recommendation</span>
+                        <div class="testimonial-card">
+                            <p class="testimonial-text">
+                                “Krutik is the one who is always looking to take
+                                on challenging problems at the intersection of
+                                software engineering, cloud infrastructure, and
+                                intelligent systems.
+                                Whether it's a new role, a side project,
+                                or just a conversation about tech.
+                                What stands out most is their commitment to
+                                delivering high-quality work and
+                                continuously improving their craft”
+                            </p>
+                            <p class="testimonial-author">– Mr. Solanki, CEO, Aviskan INC.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="footer-bottom">
+                <div class="footer-brand">
+                    <a href="#" class="logo">KRUTIK<span class="dot">.</span></a>
+                    <p class="footer-tagline">Software Engineer & ML Practitioner</p>
+                </div>
+
+                <div class="footer-nav">
+                    <div class="footer-col">
+                        <span class="label">Social</span>
+                        <div class="footer-links-list">
+                            <a href="https://www.linkedin.com/in/krutik-mistry" target="_blank" class="social-link">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="social-icon">
+                                    <path
+                                        d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z">
+                                    </path>
+                                    <rect x="2" y="9" width="4" height="12"></rect>
+                                    <circle cx="4" cy="4" r="2"></circle>
+                                </svg>
+                                LinkedIn
+                            </a>
+                            <a href="https://github.com/krutik-mistry" target="_blank" class="social-link">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="social-icon">
+                                    <path
+                                        d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                                    </path>
+                                </svg>
+                                GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-copyright">
+            <p>&copy; 2025 Krutik Mistry. Melbourne, FL. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button id="scroll-top-btn" aria-label="Go to top">
+        ↑
+    </button>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
